@@ -38,7 +38,7 @@ This project was built using the following technologies:
 
  # ✨ Features
  
- - **Authentication using <u>JSON Web Tokens</u>.**
+ - **Authentication using <ins>JSON Web Tokens</ins>.**
 
 - User-friendly UI for viewing and managing courses.
 
