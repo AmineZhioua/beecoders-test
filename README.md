@@ -3,9 +3,10 @@
 A simpe web application designed to manage and display a collection of courses with detailed information. The application features a user-friendly interface for users to browse courses, responsive design for seamless accessibility, and integration with a backend API for data management.
 
 
-🌐 Live Demo
+# 🌐 Live Demo
 
-[will be available soon]
+Admin Dashboard Link : [https://beecoders-test.vercel.app]
+User Interface Link : [https://beecoders-test-sy92.vercel.app]
 
 # 🛠️ Tech Stack
 
