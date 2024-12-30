@@ -7,6 +7,9 @@ import { Label } from '@/components/ui/label'
 import { Alert, AlertDescription } from '@/components/ui/alert'
 import axios from 'axios';
 
+const API_URL = import.meta.env.VITE_API_URL;
+
+
 export default function Signup() {
   const navigate = useNavigate()
   const [error, setError] = useState<string>('')
@@ -23,7 +26,7 @@ export default function Signup() {
     setError('')
 
     try {
-      const respone = await axios.post("http://localhost:5000/api/auth/signup", formData);
+      const respone = await axios.post(`${API_URL}/auth/signup`, formData);
         if (respone.status === 201) {
             setFormData({ email: formData.email, username: formData.username, password: formData.password });
             navigate('/login');

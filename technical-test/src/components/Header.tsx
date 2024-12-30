@@ -10,8 +10,8 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
     { name: 'Home', href: '/' },
-    { name: 'Courses', href: '/courses' },
-    { name: 'Contact us', href: '/contact' },
+    { name: 'Courses', href: '/' },
+    { name: 'Contact us', href: '/' },
 ];
 
 const Header = () => {

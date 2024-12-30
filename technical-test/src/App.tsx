@@ -5,8 +5,6 @@ import Landing from "./components/Landing";
 import { getAllCourses } from "./api";
 
 
-
-
 function App() {
   const[courses, setCourses] = useState([]);
 
